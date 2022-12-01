@@ -10,6 +10,7 @@ SELECT staff.name, enclosures.name FROM staff
 INNER JOIN assignments ON staff_id = employee_id 
 INNER JOIN enclosures ON enclosures.enclosure_id = assignments.enclosure_id WHERE closedForMaintenance = 'T';
 -- 2.
+SELECT enclosures.name FROM animals INNER JOIN enclosures ON enclosures.enclosure_id = animals.enclosure_id ORDER BY animals.age DESC LIMIT 1;
 
 -- 3.
 SELECT Count(a.type) FROM animals AS a INNER JOIN enclosures AS e ON e.enclosure_id = a.enclosure_id 
