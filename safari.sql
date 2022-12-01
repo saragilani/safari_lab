@@ -49,14 +49,14 @@ Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Simba', 'Lion', 15
 Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Ben', 'Parrot', 11, 3);
 Insert INTO animals (name, type, age, enclosure_id ) VALUES ('George', 'Gorrila', 30, 4);
 Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Rafiki', 'Orangutan', 70, 4);
-Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Richard Parker' , 'Tiger', 50, 4);
-Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Pink', 'Panther', 30, 4);
-Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Headwig', 'Owl', 80, 4);
-Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Ollie', 'Ostritch', 32, 4);
+Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Richard Parker' , 'Tiger', 50, 2);
+Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Pink', 'Panther', 30, 2);
+Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Headwig', 'Owl', 80, 3);
+Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Ollie', 'Ostritch', 32, 3);
 
 -- Assignments 
 Insert INTO assignments (employee_id, enclosure_id ) VALUES (1,1);
 Insert INTO assignments (employee_id, enclosure_id ) VALUES (1,2);
-Insert INTO assignments (employee_id, enclosure_id ) VALUES (2,3);
-Insert INTO assignments (employee_id, enclosure_id ) VALUES (2,4);
+Insert INTO assignments (employee_id, enclosure_id ) VALUES (2, 3);
+Insert INTO assignments (employee_id, enclosure_id ) VALUES (2, 4);
 
