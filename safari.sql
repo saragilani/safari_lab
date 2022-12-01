@@ -37,10 +37,10 @@ Insert INTO staff (name, employee_Number) VALUES ('Salma', 21);
 Insert INTO staff (name, employee_Number) VALUES ('Sara', 25);
 
 -- Enclosures
-Insert INTO enclosures (name, capacity) VALUES ('Reptile', 60);
-Insert INTO enclosures (name, capacity) VALUES ('Big Cats', 25);
-Insert INTO enclosures (name, capacity) VALUES ('Birds', 70);
-Insert INTO enclosures (name, capacity) VALUES ('Primates', 30);
+Insert INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Reptile', 60, 'T');
+Insert INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Big Cats', 25, 'F');
+Insert INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Birds', 70, 'F');
+Insert INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Primates', 30, 'T');
 
 -- Insert Animals 
 Insert INTO animals (name, type, age, enclosure_id ) VALUES ('Slytherine', 'Boa', 21, 1);
@@ -59,4 +59,5 @@ Insert INTO assignments (employee_id, enclosure_id ) VALUES (1,1);
 Insert INTO assignments (employee_id, enclosure_id ) VALUES (1,2);
 Insert INTO assignments (employee_id, enclosure_id ) VALUES (2, 3);
 Insert INTO assignments (employee_id, enclosure_id ) VALUES (2, 4);
+
 
