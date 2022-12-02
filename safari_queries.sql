@@ -16,3 +16,14 @@ SELECT enclosures.name FROM animals INNER JOIN enclosures ON enclosures.enclosur
 SELECT Count(a.type) FROM animals AS a
 INNER JOIN assignments ON a.enclosure_id = assignments.enclosure_id 
 INNER JOIN staff ON staff.staff_id = assignments.employee_id WHERE staff.name = 'Salma';
+
+-- 4.
+SELECT COUNT(staff)
+ FROM enclosures AS e
+INNER JOIN assignments ON e.enclosure_id = assignments.enclosure_id 
+INNER JOIN staff ON staff.staff_id = assignments.employee_id WHERE e.name = 'Primates';
+
+-- 5.
+SELECT a.name
+ FROM animals AS a
+INNER JOIN enclosures AS e ON e.enclosure_id = a.enclosure_id  WHERE e.name = 'Big Cats';
